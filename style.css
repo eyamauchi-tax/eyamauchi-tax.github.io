@@ -3377,8 +3377,8 @@ p {
 /* V5 TOP ABOUT 本文幅の微調整 */
 
 .v5-about-single {
-  width: min(94%, 1200px);
-  max-width: 1200px;
+  width: min(96%, 1240px);
+  max-width: 1240px;
 }
 
 /* =========================================
