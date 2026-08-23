@@ -40,11 +40,19 @@
 }
   .price-plan-card h4{margin:24px 0 10px;}
   .price-plan-card li,.price-option-box li{margin:7px 0;line-height:1.7;}
-  .price-note{font-size:.92em;margin-top:18px;}
+  .price-note{
+  font-size:.92em;
+  margin-top:18px;
+  white-space:nowrap;
+}
   .price-option-box{background:#faf8f5;border-radius:10px;padding:22px 28px;margin-top:22px;}
   .price-simple-card,.price-first-meeting{margin-top:28px;}
   .price-first-free{font-size:1.2rem;}
-  @media(max-width:760px){.price-plan-grid{grid-template-columns:1fr}.price-plan-card,.price-simple-card,.price-first-meeting{padding:25px 22px}}
+  @media(max-width:760px){
+  .price-plan-grid{grid-template-columns:1fr}
+  .price-plan-card,.price-simple-card,.price-first-meeting{padding:25px 22px}
+  .price-note{white-space:normal;}
+}
 </style>
 
 </head>

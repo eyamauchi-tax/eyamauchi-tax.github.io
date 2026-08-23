@@ -40,10 +40,14 @@
       margin-top:24px !important; padding:18px 22px; background:#fff8f1;
       border-left:3px solid #d8a16f;
     }
-    @media (max-width:760px) {
-      .v6-service-card { padding:26px 22px; }
-      .v6-service-subgrid { grid-template-columns:1fr; }
-    }
+   @media (max-width:760px) {
+  .v6-service-card { padding:26px 16px; }
+  .v6-service-subgrid { grid-template-columns:1fr; }
+
+  .v6-service-card#business > h2 {
+    white-space: nowrap;
+  }
+}
   </style>
 
 </head>
