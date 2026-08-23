@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta name="description"
+    content="山内税理士事務所のプロフィールと、仕事に対する考え方をご紹介します。">
+
+  <title>プロフィール｜山内税理士事務所</title>
+
+<link rel="icon" type="image/png" href="images/favicon.png">
+
+  <link rel="stylesheet" href="style.css">
+<style>
+  /* V7 TEMP：最終調整後にstyle.cssへ統合 */
+
+ .v6-about-divider-photo {
+  width: min(90%, 1100px);
+  height: 250px;
+  margin: -30px auto 0;
+  overflow: hidden;
+}
+
+.v6-about-divider-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center bottom !important;
+  display: block;
+}
+.v6-values-section {
+  padding-top: 38px;
+}
+
+.v6-values-heading {
+  margin-bottom: 0;
+}
+
+.v6-values-heading .section-label {
+  margin-bottom: 8px;
+  font-size: 14px;
+  letter-spacing: 0.18em;
+}
+
+.v6-values-heading h2 {
+  margin-bottom: 0;
+  font-size: 30px;
+}
+
+  .v6-values-list {
+    margin-top: 30px;
+  }
+
+  .v6-value-row {
+    display: grid;
+    grid-template-columns: 80px 310px 1fr;
+    align-items: start;
+    padding: 34px 0;
+    border-bottom: 1px solid #e8e2dc;
+  }
+
+  .v6-value-row:first-child {
+    border-top: 1px solid #e8e2dc;
+  }
+
+  .v6-value-number {
+  font-size: 28px;
+  font-weight: 400;
+  color: var(--main-color);
+  letter-spacing: 0.05em;
+  line-height: 1;
+}
+
+.v6-value-title {
+  margin: 0;
+  padding-right: 30px;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1.45;
+  position: relative;
+  z-index: 1;
+  width: fit-content;
+}
+
+.v6-value-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 30px;
+  bottom: 2px;
+  height: 7px;
+  background: rgba(216, 161, 111, 0.18);
+  z-index: -1;
+}
+  .v6-value-body {
+    padding-left: 34px;
+    border-left: 1px solid #d8d0c8;
+  }
+
+  .v6-value-body p {
+    margin: 0 0 14px;
+    line-height: 1.95;
+  }
+
+  .v6-value-body p:last-child {
+    margin-bottom: 0;
+  }
+
+/* V7 スマホ 大切にしていること */
+@media (max-width: 850px) {
+
+  .v6-value-row {
+    grid-template-columns: 48px 1fr;
+    column-gap: 12px;
+    row-gap: 22px;
+    padding: 30px 0;
+  }
+
+  .v6-value-number {
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 26px;
+    line-height: 1;
+  }
+
+  .v6-value-title {
+    grid-column: 2;
+    grid-row: 1;
+    padding-right: 0;
+    font-size: 19px;
+    line-height: 1.4;
+    font-weight: 600;
+  }
+
+.v6-value-title::after {
+  right: 0;
+}
+
+  .v6-value-body {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    padding-left: 0;
+    border-left: none;
+  }
+
+  .v6-value-body p {
+    font-size: 15px;
+    line-height: 1.9;
+    margin-bottom: 12px;
+  }
+
+</style>
+</head>
+
+
+<body>
+
+  <!-- ヘッダー -->
+  <header class="header">
+
+    <div class="header-inner">
+
+      <a class="office-name" href="index.html">
+        山内税理士事務所
+      </a>
+
+      <nav class="nav">
+
+        <a href="index.html">
+          TOP
+        </a>
+
+        <a class="current" href="about.html">
+          プロフィール
+        </a>
+
+        <a href="service.html">
+          サービス
+        </a>
+
+        <a href="price.html">
+          料金
+        </a>
+
+        <a href="flow.html">
+          ご相談の流れ
+        </a>
+
+        <a href="office.html">
+          事務所概要
+        </a>
+
+        <a class="nav-contact" href="contact.html">
+          お問い合わせ
+        </a>
+
+      </nav>
+
+    </div>
+
+  </header>
+
+
+  <main>
+
+
+    <!-- ページタイトル -->
+    <section class="page-hero">
+
+      <div class="container">
+
+        <p class="section-label">
+          ABOUT
+        </p>
+
+        <h1>
+          プロフィール
+        </h1>
+
+        <p class="page-lead">
+          山内税理士事務所のご紹介
+        </p>
+
+<div class="v6-about-nav">
+  <a href="#greeting">ご挨拶</a>
+  <span>｜</span>
+  <a href="#values">大切にしていること</a>
+</div>
+
+      </div>
+
+    </section>
+
+
+
+    <!-- プロフィール本文 -->
+    <section class="section" id="greeting">
+
+      <div class="container about-page-layout">
+
+
+        <!-- 左側：文章 -->
+        <div class="about-page-content">
+
+          <h2>ご挨拶</h2>
+
+          <p class="about-page-introduction">
+            はじめまして。<br>
+            山内税理士事務所の山内 江美子です。
+          </p>
+
+          <p>
+            これまで、法人・個人の税務をはじめ、事業承継などのコンサルティングにも携わり、さまざまなお客様と関わってきました。
+          </p>
+
+          <p>
+            そうした経験を重ねる中で、税務申告を適切に行うことはもちろん、その先にあるお客様の判断を支えることも、税理士として大切な役割だと感じるようになりました。
+          </p>
+
+          <p>
+            税務に関するご相談では、お客様がどのような判断や選択をされるのかによって、税務上の考え方や検討すべきことも変わってきます。
+          </p>
+
+          <p>
+            だからこそ、お客様の考えや状況を踏まえたうえで、税務の専門家としてどのような方法があるのか、どう考えるべきかを丁寧に検討しています。
+          </p>
+
+          <p>
+            お客様一人ひとりと向き合い、その方に合ったサポートをしていきたい。そんな思いから、山内税理士事務所を開業しました。
+          </p>
+
+          <p>
+            安心して相談ができる、「相談してよかった」と思っていただける存在でありたいと考えています。
+          </p>
+
+          <p>
+            これからも、一つひとつのご相談に誠実に向き合ってまいります。
+          </p>
+
+          <div class="about-signature">
+            <p class="signature-office">
+              山内税理士事務所　税理士
+            </p>
+            <p class="signature-name">
+              山内 江美子
+            </p>
+            <p class="signature-handwritten">
+              Emiko Yamauchi
+            </p>
+          </div>
+
+        </div>
+
+
+        <!-- 右側：本人写真 -->
+        <div class="about-photo-area">
+
+          <div class="profile-photo-placeholder">
+
+            <div>
+
+              <span>
+                PROFILE PHOTO
+              </span>
+
+              <p>
+                山内 江美子<br>
+                プロフィール写真
+              </p>
+
+              <small>
+                ※撮影後に本人写真へ差し替え
+              </small>
+
+            </div>
+
+          </div>
+
+        </div>
+
+
+      </div>
+
+    </section>
+
+　　<!-- ご挨拶と大切にしていることの区切り -->
+<div class="v6-about-divider-photo">
+  <img
+    src="images/about-values-office.png"
+    alt="落ち着いたオフィスのイメージ">
+</div>
+
+
+    <!-- 大切にしていること -->
+<section class="section about-values-section v6-values-section" id="values">
+
+  <div class="container">
+
+    <div class="section-title v6-values-heading">
+  <p class="section-label">VALUES</p>
+  <h2>大切にしていること</h2>
+
+  <p class="v7-values-lead">
+    お客様との関わりの中で、大切にしていることをご紹介します。
+  </p>
+</div>
+
+<div class="v6-values-list">
+
+  <article class="v6-value-row">
+
+    <div class="v6-value-number">01</div>
+
+    <h3 class="v6-value-title">
+      お客様の考えを尊重します
+    </h3>
+
+    <div class="v6-value-body">
+
+      <p>
+        お客様の考えを伺い、税務上の影響や注意点を整理し、必要に応じて選択肢をご提案します。
+      </p>
+
+      <p>
+        お客様ご自身が納得したうえで判断できることを大切にしています。
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="v6-value-row">
+
+    <div class="v6-value-number">02</div>
+
+    <h3 class="v6-value-title">
+      将来を見据えてサポートします
+    </h3>
+
+    <div class="v6-value-body">
+
+      <p>
+        目の前のご相談だけでなく、今後のことにも目を向けながら、長く安心してご相談いただけるようサポートします。
+      </p>
+
+    </div>
+
+  </article>
+
+
+  <article class="v6-value-row">
+
+    <div class="v6-value-number">03</div>
+
+    <h3 class="v6-value-title">
+      分かりやすくお伝えします
+    </h3>
+
+    <div class="v6-value-body">
+
+      <p>
+        専門用語や分かりにくい制度も、できるだけ分かりやすい言葉でお伝えします。
+      </p>
+
+      <p>
+        結論だけでなく、その理由や考え方も含め、必要に応じて試算なども行いながら整理してご説明します。
+      </p>
+
+    </div>
+
+  </article>
+
+</div>
+
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+    <!-- お問い合わせ -->
+    <section class="home-contact">
+
+      <div class="container home-contact-inner">
+
+        <div>
+
+          <p class="section-label">
+            CONTACT
+          </p>
+
+          <h2>
+            お気軽にご相談ください
+          </h2>
+
+          <p>
+            ご相談・お問い合わせは、
+            お問い合わせフォームよりお願いいたします。
+          </p>
+
+        </div>
+
+
+        <a class="button" href="contact.html">
+          お問い合わせはこちら →
+        </a>
+
+      </div>
+
+    </section>
+
+
+  </main>
+
+
+
+  <!-- フッター -->
+ <footer class="footer">
+
+  <div class="container footer-main">
+
+    <div class="footer-office">
+
+      <p class="footer-office-name">
+        山内税理士事務所
+      </p>
+
+      <p class="footer-address">
+        〒213-0012<br>
+        神奈川県川崎市高津区坂戸3-2-1<br>
+        かながわサイエンスパーク 西棟2F Tech-Pot
+      </p>
+
+    </div>
+
+   <div class="footer-policy">
+
+  <a href="privacy.html">
+    プライバシーポリシー
+  </a>
+
+  <span>｜</span>
+
+  <a href="terms.html">
+    利用規約
+  </a>
+
+</div>
+
+  </div>
+
+
+  <div class="container footer-bottom">
+
+    <p>
+      © 2026 Yamauchi Tax Accounting Office
+    </p>
+
+  </div>
+
+</footer>
+
+
+</body>
+
+</html>
+
