@@ -3661,3 +3661,16 @@ p {
   margin-bottom: 0;
 }
 
+/* ヘッダーロゴ */
+.office-name {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.office-name img {
+  width: 34px;
+  height: 34px;
+  object-fit: contain;
+  flex-shrink: 0;
+}
