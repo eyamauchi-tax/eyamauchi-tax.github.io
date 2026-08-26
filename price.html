@@ -45,10 +45,11 @@
 
   .price-plan-card h4{margin:24px 0 10px;}
   .price-plan-card li,.price-option-box li{margin:7px 0;line-height:1.7;}
-  .price-note{
-  font-size:.92em;
-  margin-top:18px;
-  white-space:nowrap;
+ .price-note {
+  font-size: .92em;
+  margin-top: 18px;
+  margin-left: -4px;
+  white-space: nowrap;
 }
   .price-option-box{background:#faf8f5;border-radius:10px;padding:22px 28px;margin-top:22px;}
   .price-simple-card,.price-first-meeting{margin-top:28px;}
@@ -58,6 +59,50 @@
   .price-plan-card,.price-simple-card,.price-first-meeting{padding:25px 22px}
   .price-note{white-space:normal;}
 }
+
+/* 料金ページ 大項目をサービスページ風に統一 */
+.price-section {
+  margin-top: 28px;
+  padding: 36px 34px;
+  background: #fff;
+  border: 1px solid #e8e2dc;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(50,40,30,.045);
+}
+
+/* 大項目タイトル下のライン */
+.price-section > h2 {
+  margin: 0 0 22px;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #d8a16f;
+  font-size: 1.55rem;
+}
+
+/* 月次・年次カードは今の見た目を維持 */
+.price-plan-grid {
+  margin: 28px 0 0;
+}
+
+/* 別途料金はカードにしない */
+.price-option-box {
+  margin-top: 28px;
+  padding: 0;
+  background: transparent;
+  border-radius: 0;
+}
+
+.price-option-box h3 {
+  margin: 0 0 12px;
+}
+
+/* スマホ */
+@media (max-width: 760px) {
+  .price-section {
+    padding: 26px 16px;
+  }
+}
+
+
 </style>
 
 </head>
