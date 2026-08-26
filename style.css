@@ -3674,3 +3674,54 @@ p {
   object-fit: contain;
   flex-shrink: 0;
 }
+
+/* =========================
+   ヘッダー 地域表示
+========================= */
+
+/* PC */
+.office-brand {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  white-space: nowrap;
+}
+
+.office-area {
+  padding-left: 14px;
+  border-left: 1px solid var(--border-color);
+  color: var(--sub-text-color);
+  font-size: 11px;
+  letter-spacing: 0.05em;
+}
+
+/* スマホ */
+@media (max-width: 850px) {
+
+  .office-brand {
+    display: block;
+  }
+
+  .office-area {
+    display: block;
+    margin-top: -16px;   /* ←今の見栄えを維持 */
+    padding-left: 70px;  /* ←今の見栄えを維持 */
+    border-left: none;
+    color: var(--sub-text-color);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+    line-height: 1.5;
+  }
+
+  .office-area::before {
+    content: "― ";
+  }
+
+  .office-area::after {
+    content: " ―";
+  }
+
+  .nav {
+    margin-top: 12px;
+  }
+}
