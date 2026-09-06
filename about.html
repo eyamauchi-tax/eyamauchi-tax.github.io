@@ -181,6 +181,15 @@
   }
 
 }
+
+/* ご挨拶 PC本文幅調整 */
+/* ご挨拶 最終行の短い改行を防ぐ */
+@media (min-width: 851px) {
+  .about-nowrap-fix {
+    text-wrap: pretty;
+  }
+}
+
 </style>
 </head>
 
@@ -308,7 +317,7 @@
             お客様一人ひとりと向き合い、その方に合ったサポートをしていきたい。そんな思いから、山内税理士事務所を開業しました。
           </p>
 
-          <p>
+          <p class="about-nowrap-fix">
             安心して相談ができる、「相談してよかった」と思っていただける存在でありたいと考えています。
           </p>
 
@@ -318,44 +327,52 @@
 
           <div class="about-signature">
             <p class="signature-office">
-              山内税理士事務所　税理士
+              山内税理士事務所
             </p>
             <p class="signature-name">
-              山内 江美子
+              税理士　山内 江美子
             </p>
-            <p class="signature-handwritten">
-              Emiko Yamauchi
-            </p>
+           
           </div>
 
         </div>
 
 
         <!-- 右側：本人写真 -->
-        <div class="about-photo-area">
+       <div class="about-photo-area">
 
-          <div class="profile-photo-placeholder">
+  <div class="profile-photo-placeholder">
+    <img
+      src="images/profile.jpg"
+      alt="山内税理士事務所 税理士 山内江美子">
+  </div>
 
-            <div>
+  <div class="profile-summary">
+    <p class="profile-name">
+      <span>税理士</span>
+      山内 江美子
+    </p>
 
-              <span>
-                PROFILE PHOTO
-              </span>
+    <p class="profile-label">PROFILE</p>
 
-              <p>
-                山内 江美子<br>
-                プロフィール写真
-              </p>
+    <dl class="profile-data">
+      <dt>【出身】</dt>
+      <dd>沖縄県</dd>
 
-              <small>
-                ※撮影後に本人写真へ差し替え
-              </small>
+      <dt>【税理士登録】</dt>
+      <dd>2015年（登録番号 129517）</dd>
 
-            </div>
+      <dt>【経歴】</dt>
+      <dd>
+        一般企業での勤務を経て、税理士業界へ。<br>
+        都内の税理士法人2社に通算約15年間勤務。<br>
+        税務顧問業務、事業承継を中心としたコンサルティング業務に携わる。<br>
+        2026年　山内税理士事務所 開業
+      </dd>
+    </dl>
+  </div>
 
-          </div>
-
-        </div>
+</div>
 
 
       </div>
