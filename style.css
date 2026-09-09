@@ -132,7 +132,7 @@ p {
 
 .office-name {
 
-  font-size: 20px;
+  font-size: 22px;
 
   letter-spacing: 0.08em;
 
@@ -359,7 +359,7 @@ p {
 
 .section {
 
-  padding: 105px 0;
+  padding: 65px 0;
 
 }
 
@@ -789,7 +789,7 @@ p {
 
   .section {
 
-    padding: 75px 0;
+    padding: 50px 0;
 
   }
 
@@ -889,13 +889,13 @@ p {
 ========================================= */
 
 .page-hero {
-  padding: 95px 0 75px;
+  padding: 40px 0;
   background: var(--sub-background);
 }
 
 .page-hero h1 {
-  margin: 0 0 20px;
-  font-size: 38px;
+  margin: 0 0 14px;
+  font-size: 34px;
   font-weight: 500;
   letter-spacing: 0.08em;
 }
@@ -905,7 +905,6 @@ p {
   margin-bottom: 0;
   font-size: 16px;
 }
-
 
 /* =========================================
    サービスページ
@@ -976,11 +975,11 @@ p {
 @media (max-width: 850px) {
 
   .page-hero {
-    padding: 65px 0 55px;
+    padding: 32px 0;
   }
 
   .page-hero h1 {
-    font-size: 30px;
+    font-size: 28px;
   }
 
   .service-detail-grid {
@@ -1529,10 +1528,10 @@ p {
   letter-spacing: 0.05em;
 }
 
-.contact-form-area {
-  padding: 45px;
-  background: var(--sub-background);
-  border-top: 3px solid var(--main-color);
+..contact-form-area {
+  padding: 0;
+  background: transparent;
+  border-top: none;
 }
 
 .contact-form-label {
@@ -1543,7 +1542,8 @@ p {
   letter-spacing: 0.2em;
 }
 
-.contact-form-area h3 {
+.contact-form-area h3,
+.contact-phone-area h3 {
   margin: 0 0 20px;
   font-size: 23px;
   font-weight: 500;
@@ -1580,10 +1580,6 @@ p {
 
 
 @media (max-width: 850px) {
-
-  .contact-form-area {
-    padding: 30px 22px;
-  }
 
   .contact-message h2 {
     font-size: 24px;
@@ -2630,7 +2626,7 @@ p {
 ========================================= */
 
 .v4-hero {
-  min-height: 570px;
+  height: 350px;
 
   display: grid;
   grid-template-columns: 0.82fr 1.18fr;
@@ -2646,8 +2642,8 @@ p {
 
 .v4-hero-message {
   padding:
-    85px 35px
-    85px max(5vw, 55px);
+    35px 35px
+    35px max(5vw, 55px);
 
   display: flex;
   flex-direction: column;
@@ -2680,7 +2676,7 @@ p {
 
 
 .v4-hero-photo {
-  min-height: 570px;
+  height: 350px;
 
   overflow: hidden;
 }
@@ -3016,29 +3012,33 @@ p {
 
   .v4-hero {
     grid-template-columns: 1fr;
+    height: auto;
   }
-
 
   .v4-hero-message {
     padding:
-      60px 7%
-      50px;
+      24px 7%
+      18px;
   }
 
 
-  .v4-hero-message h1 {
+   .v4-hero-message h1 {
+    margin-bottom: 20px;
     white-space: normal;
   }
 
+.v4-hero-text {
+  margin-bottom: 0;
+}
+
 
   .v4-hero-photo {
-    min-height: 330px;
+    min-height: 180px;
   }
 
 
   .v4-about-grid {
     grid-template-columns: 1fr;
-
     gap: 45px;
   }
 
@@ -3691,7 +3691,7 @@ p {
   padding-left: 14px;
   border-left: 1px solid var(--border-color);
   color: var(--sub-text-color);
-  font-size: 11px;
+  font-size: 12px;
   letter-spacing: 0.05em;
 }
 
@@ -3708,7 +3708,7 @@ p {
     padding-left: 70px;  /* ←今の見栄えを維持 */
     border-left: none;
     color: var(--sub-text-color);
-    font-size: 10px;
+    font-size: 11px;
     letter-spacing: 0.04em;
     line-height: 1.5;
   }
