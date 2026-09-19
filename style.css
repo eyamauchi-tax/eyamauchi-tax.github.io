@@ -3795,3 +3795,23 @@ p {
   border-top: none;
 }
 
+.contact-guide-card {
+  margin-bottom: 56px;
+  padding: 24px 26px;
+  background: #faf8f5;
+  border: none;
+  border-radius: 10px;
+}
+
+.contact-guide-card p {
+  margin: 0 0 14px;
+  line-height: 1.9;
+}
+
+.contact-guide-card p:last-child {
+  margin-bottom: 0;
+}
+
+.contact-phone-area {
+  margin-top: 56px;
+}
