@@ -3815,3 +3815,27 @@ p {
 .contact-phone-area {
   margin-top: 56px;
 }
+
+/* 事務所概要：アクセス案内を1列に変更 */
+.office-access-section .access-card-grid {
+  grid-template-columns: 1fr;
+}
+
+.office-access-section .access-card {
+  min-height: auto;
+}
+
+.office-address-line {
+  white-space: nowrap;
+}
+
+/* アクセス案内 PCは2列、スマホは1列 */
+.office-access-section .access-card-grid {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
+@media (max-width: 850px) {
+  .office-access-section .access-card-grid {
+    grid-template-columns: 1fr;
+  }
+}
